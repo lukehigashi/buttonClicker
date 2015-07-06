@@ -1,15 +1,29 @@
+
+<!-- typing "!" then "tab" will create all the basic parts of the html format-->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+	<meta charset="UTF-8">
+
+	<!--The part below links us to the style.css file-->
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>Clicker</title>
 </head>
 <body>
-	<p id='hiscore'>Current Highscore: 10</p>
+
+	<!-- This paragraph below will have the id "hiscore", we can refer back to this area to manipulate in JavaScript later.-->
+	<p id="hiscore">Current Highscore: 10</p>
+
 	Press Button for points!
 	<br>
+	
+	<!--The button below will run a function called "press" when the button is clicked-->
 	<button onclick="press()">Press Me</button>
+	
+	<!--This is where we want the current score to appear when we press the button-->
 	<p id="score"></p>
+
+<!--The part below links us to the app.js file-->
 <script type="text/javascript" src="app.js"></script>
 </body>
 </html>

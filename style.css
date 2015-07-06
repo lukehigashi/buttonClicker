@@ -1,3 +1,5 @@
+
+/* Below is all the color choices and fonts for the main body*/
 body {
 	background-color: magenta;
 	font-family: sans-serif;
@@ -5,6 +7,10 @@ body {
 	color: white;
 	text-align: center;
 }
+
+/* Below are things which would change the look of the button*/
 button {
 	font-size: 60px;
+	background-color: red;
+	color: white;
 }
